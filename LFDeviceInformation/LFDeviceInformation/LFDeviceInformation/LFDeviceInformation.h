@@ -1,7 +1,15 @@
-# LFDeviceInformation
-以下是所有所有方法，直接调用即可:
+//
+//  LFDeviceInformation.h
+//  LFDeviceInformation
+//
+//  Created by gary.liu on 2017/8/15.
+//  Copyright © 2017年 LiuLinFei. All rights reserved.
+//
 
-@interface NNDeviceInformation : NSObject
+#import <UIKit/UIKit.h>
+
+@interface LFDeviceInformation : NSObject
+
 /// 屏幕宽度
 + (CGFloat)getDeviceScreenWidth;
 
@@ -46,4 +54,5 @@
 
 /// 获取当前语言
 + (NSString *)getDeviceLanguage;
+
 @end
